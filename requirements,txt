@@ -1,0 +1,10 @@
+List all the dependencies for the project:
+streamlit
+transformers
+datasets
+pillow
+pytesseract
+pyttsx3
+Install them using:
+
+pip install -r requirements.txt

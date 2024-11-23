@@ -1,0 +1,154 @@
+/* Custom styles for trendy vibes */
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    color: #FF4081; /* Trendy Pink for headings */
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+button {
+    background-color: #FF4081;
+    color: white;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f50057;
+}
+
+.stFileUploader {
+    border: 2px dashed #FF4081;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.stFileUploader:hover {
+    border-color: #f50057;
+    background-color: #f9f9f9;
+}
+/* Background Style */
+body {
+    background: linear-gradient(135deg, #00c6ff, #0072ff); /* Gradient background */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Add a slight blur effect on the background to enhance focus on the content */
+.stApp {
+    background: rgba(255, 255, 255, 0.9); /* White background with transparency */
+    border-radius: 20px;
+    padding: 30px;
+}
+
+/* Add padding and margins to the content for better spacing */
+h1, h2, h3, p {
+    margin-bottom: 20px;
+}
+
+/* Adjust the file uploader box and add hover effect */
+.stFileUploader {
+    border: 2px dashed #FF4081;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.stFileUploader:hover {
+    border-color: #f50057;
+    background-color: #f9f9f9;
+}
+/* Hover effect for buttons */
+button {
+    background-color: #FF4081;
+    color: white;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #f50057;
+    transform: scale(1.1);  /* Slight zoom-in effect */
+}
+
+/* Hover effect for image upload area */
+.stFileUploader {
+    border: 2px dashed #FF4081;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.stFileUploader:hover {
+    border-color: #f50057;
+    background-color: #f9f9f9;
+}
+
+/* Subtle shadow effect for buttons and elements */
+button, .stFileUploader {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover, .stFileUploader:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+/* Adding animation to the title */
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+h1 {
+    animation: slideIn 1s ease-out;
+}
+
+/* Smooth transition for text and buttons */
+.stButton, .stRadio, .stFileUploader {
+    transition: all 0.3s ease;
+}
+
+.stButton:hover, .stRadio:hover {
+    transform: scale(1.05);
+}
+/* Styling for the progress bars */
+.progress-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    height: 25px;
+    width: 48%;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #FF80FF 50%, #00BFFF 50%);  /* Pink to Blue */
+    box-shadow: 0px 2px 5px rgba(241, 225, 225, 0.2);
+}
+
+.progress-bar-text {
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+    margin-top: 5px;
+}
